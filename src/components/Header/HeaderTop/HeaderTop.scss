@@ -1,0 +1,39 @@
+.headerTop {
+    padding: 6px 0;
+    border-bottom: 1px solid #fff;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    &__loc {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        a {
+            margin-left: 30px;
+            margin-right: 20px;
+            color: #fff;
+            font-size: 14px;
+            @media (max-width: 600px) {
+                display: none;
+            }
+        }
+    }
+
+    &__btn-dark {
+        margin-top: 5px;
+    }
+}
+

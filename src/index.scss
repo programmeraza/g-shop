@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-
+  font-family: "Golos Text", sans-serif;
 }
 
 ul,ol,p,a {
@@ -17,8 +17,23 @@ ul,ol,p,a {
 
 .container {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+[data-theme='dark'] {
+  background-color: #1d2530;
+  color: #f9f9f9;
+}
+
+[data-theme='light'] {
+  background-color: #f9f9f9;
+  color: #1d2530;
+}
+
+::selection {
+  background-color: #ff3139;
+  color: #fff;
 }
 
